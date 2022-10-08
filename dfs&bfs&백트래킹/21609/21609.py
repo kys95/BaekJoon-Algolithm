@@ -82,9 +82,9 @@ while True:
     blocks = []  # 가능한 블록 그룹들 넣을 리스트
     for i in range(N):
         for j in range(N):
-            if a[i][j] > 0 and not visited[i][j]:  # 일반블록이면서 방문 안했으면
-                visited[i][j] = 1  # 방문
-                block_info = bfs(i, j, a[i][j])  # 인접한 블록 찾기
+            if a[i][j] > 0 and not visited[i][j]:
+                visited[i][j] = 1
+                block_info = bfs(i, j, a[i][j])
                 # block_info = [블록크기, 무지개블록 개수, 블록좌표]
                 if block_info[0] >= 2:
                     blocks.append(block_info)
