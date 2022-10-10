@@ -1,7 +1,7 @@
 from collections import deque
 
 
-# 인접 블록 찾기 -> 블록 크기, 무지개크기, 블록좌표 리턴
+#인접 블록 찾기 -> 블록 크기, 무지개크기, 블록좌표 리턴
 def bfs(x, y, color):
     q = deque()
     q.append([x, y])
