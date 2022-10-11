@@ -1,9 +1,10 @@
+import sys
 import heapq
 from collections import deque
-import sys
+input = sys.stdin.readline
 
 # 공간의 크기 n 입력
-n = int(input().rstrip())
+n = int(input())
 # 공간 상태
 graph = [list(map(int, input().split())) for _ in range(n)]
 # 아기상어 위치 확인
