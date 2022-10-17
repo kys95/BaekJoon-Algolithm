@@ -68,7 +68,6 @@ def rot90(a):
             new_a[N - 1 - j][i] = a[i][j]
     return new_a
 
-
 # 0. 메인코드
 N, M = map(int, input().split())
 a = [list(map(int, input().split())) for _ in range(N)]
