@@ -31,6 +31,7 @@ if __name__ == "__main__":
     if find_parent(parent, a) != find_parent(parent, b):
       union_parent(parent, a, b)
       result += cost
+          
   print(total - result)
 
 
