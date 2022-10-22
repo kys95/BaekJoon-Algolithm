@@ -28,4 +28,5 @@ if __name__ == "__main__":
       break
     union_parent(parent, x, x - 1)
     result += 1
+
   print(result)
