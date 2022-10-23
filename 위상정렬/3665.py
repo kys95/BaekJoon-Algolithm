@@ -53,9 +53,12 @@ if __name__ == "__main__":
 
         if cycle:
             print("IMPOSSIBLE")
+            
         elif not certain:
             print("?")
+
         else:
             for i in result:
                 print(i, end=' ')
+
             print()
